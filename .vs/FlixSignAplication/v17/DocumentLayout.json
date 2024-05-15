@@ -1,0 +1,107 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Luan M.D\\source\\repos\\FlixSignAplication\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0CA8276A-23EF-40B8-A3F8-4F3471D53D12}|flixsignaplication.client\\flixsignaplication.client.esproj|c:\\users\\luan m.d\\source\\repos\\flixsignaplication\\flixsignaplication.client\\src\\components\\bookform.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{0CA8276A-23EF-40B8-A3F8-4F3471D53D12}|flixsignaplication.client\\flixsignaplication.client.esproj|solutionrelative:flixsignaplication.client\\src\\components\\bookform.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CA8276A-23EF-40B8-A3F8-4F3471D53D12}|flixsignaplication.client\\flixsignaplication.client.esproj|c:\\users\\luan m.d\\source\\repos\\flixsignaplication\\flixsignaplication.client\\src\\components\\booklist.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{0CA8276A-23EF-40B8-A3F8-4F3471D53D12}|flixsignaplication.client\\flixsignaplication.client.esproj|solutionrelative:flixsignaplication.client\\src\\components\\booklist.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CA8276A-23EF-40B8-A3F8-4F3471D53D12}|flixsignaplication.client\\flixsignaplication.client.esproj|c:\\users\\luan m.d\\source\\repos\\flixsignaplication\\flixsignaplication.client\\src\\services\\api.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{0CA8276A-23EF-40B8-A3F8-4F3471D53D12}|flixsignaplication.client\\flixsignaplication.client.esproj|solutionrelative:flixsignaplication.client\\src\\services\\api.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CA8276A-23EF-40B8-A3F8-4F3471D53D12}|flixsignaplication.client\\flixsignaplication.client.esproj|c:\\users\\luan m.d\\source\\repos\\flixsignaplication\\flixsignaplication.client\\src\\styles\\styled.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{0CA8276A-23EF-40B8-A3F8-4F3471D53D12}|flixsignaplication.client\\flixsignaplication.client.esproj|solutionrelative:flixsignaplication.client\\src\\styles\\styled.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CA8276A-23EF-40B8-A3F8-4F3471D53D12}|flixsignaplication.client\\flixsignaplication.client.esproj|c:\\users\\luan m.d\\source\\repos\\flixsignaplication\\flixsignaplication.client\\src\\pages\\home.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{0CA8276A-23EF-40B8-A3F8-4F3471D53D12}|flixsignaplication.client\\flixsignaplication.client.esproj|solutionrelative:flixsignaplication.client\\src\\pages\\home.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BookList.jsx",
+              "DocumentMoniker": "C:\\Users\\Luan M.D\\source\\repos\\FlixSignAplication\\flixsignaplication.client\\src\\components\\BookList.jsx",
+              "RelativeDocumentMoniker": "flixsignaplication.client\\src\\components\\BookList.jsx",
+              "ToolTip": "C:\\Users\\Luan M.D\\source\\repos\\FlixSignAplication\\flixsignaplication.client\\src\\components\\BookList.jsx",
+              "RelativeToolTip": "flixsignaplication.client\\src\\components\\BookList.jsx",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2024-05-12T04:12:28.218Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "api.js",
+              "DocumentMoniker": "C:\\Users\\Luan M.D\\source\\repos\\FlixSignAplication\\flixsignaplication.client\\src\\services\\api.js",
+              "RelativeDocumentMoniker": "flixsignaplication.client\\src\\services\\api.js",
+              "ToolTip": "C:\\Users\\Luan M.D\\source\\repos\\FlixSignAplication\\flixsignaplication.client\\src\\services\\api.js",
+              "RelativeToolTip": "flixsignaplication.client\\src\\services\\api.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-05-12T04:11:06.082Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "styled.js",
+              "DocumentMoniker": "C:\\Users\\Luan M.D\\source\\repos\\FlixSignAplication\\flixsignaplication.client\\src\\styles\\styled.js",
+              "RelativeDocumentMoniker": "flixsignaplication.client\\src\\styles\\styled.js",
+              "ToolTip": "C:\\Users\\Luan M.D\\source\\repos\\FlixSignAplication\\flixsignaplication.client\\src\\styles\\styled.js",
+              "RelativeToolTip": "flixsignaplication.client\\src\\styles\\styled.js",
+              "ViewState": "AQIAAEcAAAAAAAAAAAAQwFsAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-05-14T01:00:54.392Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BookForm.jsx",
+              "DocumentMoniker": "C:\\Users\\Luan M.D\\source\\repos\\FlixSignAplication\\flixsignaplication.client\\src\\components\\BookForm.jsx",
+              "RelativeDocumentMoniker": "flixsignaplication.client\\src\\components\\BookForm.jsx",
+              "ToolTip": "C:\\Users\\Luan M.D\\source\\repos\\FlixSignAplication\\flixsignaplication.client\\src\\components\\BookForm.jsx",
+              "RelativeToolTip": "flixsignaplication.client\\src\\components\\BookForm.jsx",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2024-05-12T04:42:16.721Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Home.jsx",
+              "DocumentMoniker": "C:\\Users\\Luan M.D\\source\\repos\\FlixSignAplication\\flixsignaplication.client\\src\\pages\\Home.jsx",
+              "RelativeDocumentMoniker": "flixsignaplication.client\\src\\pages\\Home.jsx",
+              "ToolTip": "C:\\Users\\Luan M.D\\source\\repos\\FlixSignAplication\\flixsignaplication.client\\src\\pages\\Home.jsx",
+              "RelativeToolTip": "flixsignaplication.client\\src\\pages\\Home.jsx",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2024-05-12T03:08:48.893Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

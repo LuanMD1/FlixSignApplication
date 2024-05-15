@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "secrets1": "secrets",
+    "mssql1": {
+      "type": "mssql",
+      "connectionId": "ConnectionStrings:APIBookShelfContext",
+      "dynamicId": null
+    }
+  }
+}
