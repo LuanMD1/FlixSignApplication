@@ -109,12 +109,11 @@ export const ul = styled.ul`
   margin: 0;
 `;
 
-
 //** Container Styles **//
 export const Container = styled.section`
-  max-width: 70dvw;
+  min-width: 80rem;
   height: 85dvh;
-  padding: 2rem;
+  padding-top: 2rem;
   border-radius: .5rem;
   display: flex;
   flex-direction: column;
@@ -133,11 +132,11 @@ export const ContainerList = styled.section`
 
 export const Main = styled.div`
   background-color: #B0C9E0;
-  max-width: 100rem;
+  min-width: 100rem;
   height: 95dvh;
   display: flex;
   border-radius: 1%;
-  justify-content: space-around;
+  justify-content: center;
   padding: 1rem;
   gap: 0.5rem;
 `;

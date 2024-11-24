@@ -71,30 +71,35 @@ export default function BookList() {
                 console.error('Error deleting book:', error);
             }
         };
+        
     if (loading) {
-        return <div>Carregando Livros..</div>;
+        return <div className='loading-table'>Carregando livros na Biblioteca...</div>;
     }
+
     return (
         <styled.Container>
             <div className='table-title'>Título - Autor</div>
             <styled.ul>
                 {books.map(book => (
                     <styled.li key={book.booK_ID}>
-                                {editingBook === book ? (
+                                {editingBook === book ?
+                                (
+                                    <>
+                                        <input type="text" value={title} onChange={(e) => setTitle(e.target.value)} placeholder="Título" />
+                                        <input type="text" value={author} onChange={(e) => setAuthor(e.target.value)} placeholder="Autor" />
+                                            <button onClick={handleUpdate}>Salvar</button>
+                                            <button onClick={() => setEditingBook(null)}>Cancelar</button>
+                                    </>
+                                ) 
+                                :
+                                (
                             <>
-                                <input type="text" value={title} onChange={(e) => setTitle(e.target.value)} placeholder="Título" />
-                                <input type="text" value={author} onChange={(e) => setAuthor(e.target.value)} placeholder="Autor" />
-                                <button onClick={handleUpdate}>Salvar</button>
-                                <button onClick={() => setEditingBook(null)}>Cancelar</button>
+                            {book.booK_NAME} - {book.author}
+                                <span>
+                                    <FaEdit onClick={() => handleEdit(book)} className="edit"/>
+                                    <FaWindowClose onClick={() => handleDelete(book.booK_ID)} className="remove"/>    
+                                </span>
                             </>
-                        ) : (
-                            <>
-                        {book.booK_NAME} - {book.author}
-                        <span>
-                        <FaEdit onClick={() => handleEdit(book)} className="edit"/>
-                        <FaWindowClose onClick={() => handleDelete(book.booK_ID)} className="remove"/>    
-                        </span>
-                        </>
                         )}
                     </styled.li>
                 ))}

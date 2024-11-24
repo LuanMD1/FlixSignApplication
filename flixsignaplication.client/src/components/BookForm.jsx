@@ -55,9 +55,9 @@ export default function BookForm() {
       <ToastContainer />
       <styled.FormContainer>
         <styled.FormTitle>Online BookShelf &nbsp;<FaBook className="book" /></styled.FormTitle>
-       <label for='title'><b>Título</b></label>
+       <label className="input-title" for='title'><b>Título</b></label>
         <styled.Input type="text" name='title' value={title} onChange={(e) => setTitle(e.target.value)} placeholder="Insira o título do livro"/>
-        <label for='author'><b>Autor</b></label>
+        <label className="input-title" for='author'><b>Autor</b></label>
         <styled.Input type="text" name='author' value={author} onChange={(e) => setAuthor(e.target.value)} placeholder="Insira o Autor"/>
         <styled.ButtonAdicionar type="button" onClick={handleSubmit}>Adicionar Livro</styled.ButtonAdicionar>
       </styled.FormContainer>

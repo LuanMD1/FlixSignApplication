@@ -5,10 +5,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-
 namespace APIBookShelf.Controllers
 {
-
     [Route("api/[controller]")]
     [ApiController]
 
@@ -35,21 +33,21 @@ namespace APIBookShelf.Controllers
                     break;
             }
 
-            var books = await query.ToListAsync();
-            return Ok(books);
+            var result = await query.ToListAsync();
+            return Ok(result);
         }
 
         [HttpGet("{BOOK_ID}")]
         public async Task<ActionResult<Book>> GetBook(int BOOK_ID)
         {
-            var book = await _context.Books.FindAsync(BOOK_ID);
+            var result = await _context.Books.FindAsync(BOOK_ID);
 
-            if (book == null)
+            if (result == null)
             {
                 return NotFound();
             }
 
-            return book;
+            return result;
         }
 
         [HttpPost]
