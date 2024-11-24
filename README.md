@@ -1,6 +1,5 @@
-**O projeto consiste em executar um CRUD onde o contexto é inserir e administrar livros em uma biblioteca.**
+**O projeto consiste em executar um CRUD onde o contexto é inserir e administrar livros em uma biblioteca virtual.**
 O projeto está estruturado em 3 partes [Front-end, Back-End, Banco de Dados]
-
 <>
 
 **1. Para executar o Front End Abra o terminal e execute: cd .\flixsignaplication.client\**
