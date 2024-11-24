@@ -26,7 +26,7 @@ Executar a Query abaixo para criar a tabela BOOKS dentro do banco FLIXSIGN
 <>
 USE FLIXSIGN
 
-CREATE TABLE bookzz (
+CREATE TABLE book (
     BOOK_ID INT PRIMARY KEY IDENTITY(1,1),
     BOOK_NAME VARCHAR(255),
     LOCATION VARCHAR(255),
@@ -41,7 +41,7 @@ CREATE TABLE bookzz (
 
 QUERY PARA TESTE DE INSERT NO BANCO:
 
-INSERT INTO bookzz(BOOK_NAME, LOCATION, AUTHOR, QUANTITY, GENRE, PUBLICATION, DATA)
+INSERT INTO book (BOOK_NAME, LOCATION, AUTHOR, QUANTITY, GENRE, PUBLICATION, DATA)
 VALUES ('Chapeuzinho Vermelho', 'FILEIRA 1-A', 'AUTOR', 2, 'INFANTIL', GETDATE(), GETDATE());
 
 **Caso necessário, validar a connection string no BackEnd.**
